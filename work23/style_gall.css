@@ -10,11 +10,12 @@ body{
 
 .h-class h3 {
 	font-family: "rossiya";
-	font-size: 16px;
+	font-size: 17px;
 	text-transform: uppercase;
 	letter-spacing: 0.8px;
 	padding-top: 10px;
 	color: #d0112b;
+	text-transform: uppercase;
 }
 
 .img-item {
@@ -73,11 +74,11 @@ body{
 	-ms-transition: all .5s ease .3s;
 	-o-transition: all .5s ease .3s;
 	transition: all .5s ease .3s;
-	-webkit-transform: translateY(-67%);
-	-moz-transform: translateY(-67%);
-	-ms-transform: translateY(-67%);
-	-o-transform: translateY(-67%);
-	transform: translateY(-67%);
+	-webkit-transform: translateY(-68%);
+	-moz-transform: translateY(-68%);
+	-ms-transform: translateY(-68%);
+	-o-transform: translateY(-68%);
+	transform: translateY(-68%);
 }
 
 .item-wrap:hover h3{
@@ -103,6 +104,8 @@ body{
 	letter-spacing: 0.8px;
 	left: 28px;
 	font-weight: unset;
+	font-size: 20px;
+	text-transform: uppercase;
 
 	-webkit-transition: all .5s ease .3s;
 	-moz-transition: all .5s ease .3s;
@@ -127,14 +130,15 @@ body{
 	-o-transition: all .5s ease .3s;
 	transition: all .5s ease .3s;	
 	opacity: 0;
+	font-size: 13px;
 
 }
 
 .item-wrap:hover .h-class .text-descr {
-	-webkit-transform: translateY(530%);
-	-ms-transform: translateY(530%);
-	-o-transform: translateY(530%);
-	transform: translateY(530%);
+	-webkit-transform: translateY(750%);
+	-ms-transform: translateY(750%);
+	-o-transform: translateY(750%);
+	transform: translateY(750%);
 	-webkit-transition: all .7s ease .4s;
 	-moz-transition: all .7s ease .4s;
 	-ms-transition: all .7s ease .4s;
@@ -144,7 +148,7 @@ body{
 }
 
 .item-wrap:hover .h-class .text-link {
-		-webkit-transform: translateY(800%);
+	-webkit-transform: translateY(800%);
 	-ms-transform: translateY(800%);
 	-o-transform: translateY(800%);
 	transform: translateY(800%);
@@ -159,7 +163,10 @@ body{
 .text-link span:hover {
 	color: #d0112b;
 	cursor: pointer;
-	fill: #d0112b;
+	background-image: url(arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 0.12em;
+    background-size: 5%;
 }
 
 .h-class .text-link {
@@ -175,12 +182,6 @@ body{
 	opacity: 0;
 }
 
-
-.h-class .text-link:hover svg{
-	fill: #d0112b ;
-}
-
-
 .line-height {
 	line-height: 48px;
 }
@@ -190,16 +191,18 @@ body{
 	color: #55565a;
 }
 
-.img-descr .h-class .text-link{
-	width: 110px;
-	background-image: url(ros-arrow-grey.svg);
-	background-repeat: no-repeat;
-	background-position: right center;
-	font-family: "HeliosEx";
-	text-transform: uppercase;
-	font-size: 14px;
-	position: relative;
-	top: 40px;
+.img-descr .h-class .text-link {
+    width: 130px;
+    background-image: url(ros-arrow-grey.svg);
+    background-repeat: no-repeat;
+    background-position: right 0.12em;
+    background-size: 5%;
+    font-family: "HeliosEx";
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+    letter-spacing: 1.2px;
 }
 
 .h-class{
