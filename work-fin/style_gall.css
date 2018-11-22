@@ -165,7 +165,7 @@ body{
 	cursor: pointer;
 	background-image: url(arrow.svg);
     background-repeat: no-repeat;
-    background-position: right 2px;
+    background-position: right 0.1em;
     background-size: 5%;
 }
 
@@ -195,7 +195,7 @@ body{
     width: 130px;
     background-image: url(ros-arrow-grey.svg);
     background-repeat: no-repeat;
-    background-position: right 2px;
+    background-position: right 0.1em;
     background-size: 5%;
     font-family: "HeliosEx";
     text-transform: uppercase;
